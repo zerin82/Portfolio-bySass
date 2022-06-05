@@ -1,0 +1,24 @@
+.counter-area{
+    background-color: black;
+    color: white;
+    
+    .single-counter{
+        text-align: center;
+        i{
+            font-size: 18px;
+            background-color: $btn_background;
+            padding: 15px;
+            margin-bottom: 10px
+        }
+        h4{
+            padding-top: 30px;
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        p{
+            font-size: 18px;
+            text-transform: capitalize;
+        }
+    }
+}

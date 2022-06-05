@@ -1,0 +1,64 @@
+.project-area{
+    .col-xxl-4{
+        padding: 0;
+    }
+    .single-project{
+        background-size: cover;
+        background-position: center;
+        height: 300px;
+        &:hover{
+            .project-content{
+                opacity: 1;
+                visibility: visible;
+                transform: scale(1);
+            }
+        }
+    }
+    .project-content{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: rgb(255, 255, 255);
+        position: relative;
+        z-index: 2;
+        opacity: 0;
+        visibility: hidden;
+        transform: scale(0);
+        transition: 0.5s;
+        a{
+            color: white;
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+        h4{
+            font-size: 20px;
+            text-transform: capitalize;
+            span{
+                text-transform: lowercase;
+                display: block;
+                margin-top: 5px;
+                text-align: center;
+            }
+        }
+    
+    &::before{
+            position: absolute;
+            content: " ";
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            background-color: #333;
+            z-index: -1;
+            opacity: 0.75;
+        
+        }
+    }
+} 
+
+
+
+
+

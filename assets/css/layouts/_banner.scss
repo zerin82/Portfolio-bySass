@@ -1,0 +1,22 @@
+.banner-area{
+    height: 100vh;
+     .banner-content{
+         h1{
+             font-size: 75px;
+             color: white; 
+             font-weight: 700;
+             line-height: 100px;
+         }
+         h4{
+            color: $white;
+            font-size: 25px;
+
+         }
+         a{
+             margin: 30px 5px 0 5px;
+             transition: 0.3s;
+         }
+         
+     }
+}
+

@@ -1,0 +1,41 @@
+    .header-area{
+        padding: 20px 0;
+        position: fixed;
+        left: 0;
+        right: 0;
+        z-index: 999;
+       
+        .logo{
+            a{
+                font-size: 25px;
+                color: white;
+                text-decoration: none;
+                border: 1px solid rgb(255, 255, 255);
+                text-transform: uppercase;
+                padding: 10px 20px;
+                font-weight: 600;
+                margin-top: 10px;
+                cursor: pointer;
+            }
+        }
+    }
+    .menu{
+        ul{
+            li{
+                
+                a{ 
+                    display: block;
+                    color: white;
+                    font-size: 16px;
+                    font-weight: 500;
+                    margin-left: 15px;
+                    text-transform: capitalize;
+                    transition:  all ease 0.3s;
+                    &:hover{
+                        color: $link_hover;
+                    }
+                }
+            }
+        }
+    }
+    
